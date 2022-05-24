@@ -1,0 +1,100 @@
+p {
+  color: #000000;
+  font-family: Arial;
+  text-align: center;
+}
+
+h3 {
+  color: #000000;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  color: #066a75;
+  font-size: 35px;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 16px;
+}
+
+
+label {
+  color: black;
+  margin-left: 15px;
+  font-family: Arial;
+}
+
+input {
+  width: 90%;
+  height: 20pt;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border-color: rgb(221, 220, 220);
+}
+
+.btn {
+  color: #fff;
+  background-color: #4ab3c6;
+  height: 28pt;
+  margin-left: 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.container {
+  border: 2px #066a75 solid;
+  border-radius: 10px;
+  border-color: #066a75;
+  width: 500px;
+  height: 600px;
+  margin: 0px auto;
+  position: relative;
+  background-color: rgb(247, 247, 247);
+}
+
+.form-select {
+  width: 88%;
+  height: 20pt;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border-color: rgb(221, 220, 220);
+}
+
+.form-control {
+  margin-top: 12px;
+}
+
+hr {
+  border: 0;
+  width: 88%;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #066a75, transparent);
+  margin-bottom: 20px;
+}
+
+::placeholder {
+  font-family: italic;
+}
+
+.link {
+  padding: 2px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all2 {
+  width: 20%;
+  margin: 2%;
+  text-align: center;
+  margin-bottom: 1em;
+}
